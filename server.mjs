@@ -7,7 +7,7 @@ import noteRouter from "./src/routers/noteRouter.mjs";
 const app = express();
 const PORT = process.env.PORT || 8000;
 
-app.use(express.static("https://notes95.netlify.app"));
+app.use(express.static(`${process.env.CLIENT_URL}`));
 app.use(express.json());
 app.use(cors());
 
