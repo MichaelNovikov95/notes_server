@@ -1,11 +1,11 @@
 {
   "name": "y",
   "version": "1.0.0",
-  "main": "@/src/server.mjs",
+  "main": "server.mjs",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "npx nodemon",
-    "build": "node ./src/server.mjs"
+    "build": "node server.mjs"
   },
   "author": "",
   "license": "ISC",

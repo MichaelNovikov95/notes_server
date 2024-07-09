@@ -13,6 +13,6 @@
   },
   "include": [
     "src/**/*.ts", // Adjust this path to match your directory structure
-    "src/server.mjs"
+    "server.mjs"
   ]
 }
