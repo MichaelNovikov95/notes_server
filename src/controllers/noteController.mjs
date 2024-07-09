@@ -2,7 +2,6 @@ import Note from "../schema/Note.mjs";
 
 export const getAllNotes = async (req, res) => {
   const notes = await Note.find({});
-  console.log(notes);
   return res.json(notes);
 };
 
