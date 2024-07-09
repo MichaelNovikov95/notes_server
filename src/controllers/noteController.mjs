@@ -1,4 +1,4 @@
-import Note from "@/schema/Note.mjs";
+import Note from "../schema/Note.mjs";
 
 export const getAllNotes = async (req, res) => {
   const notes = await Note.find({});
