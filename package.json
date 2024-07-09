@@ -4,7 +4,8 @@
   "main": "src/server.mjs",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "npx nodemon"
+    "dev": "npx nodemon",
+    "build": "node server.mjs"
   },
   "author": "",
   "license": "ISC",
