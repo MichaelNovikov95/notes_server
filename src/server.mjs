@@ -1,8 +1,8 @@
 import express from "express";
 import cors from "cors";
 
-import connect from "./config/db.mjs";
-import noteRouter from "./routers/noteRouter.mjs";
+import connect from "@/config/db.mjs";
+import noteRouter from "@/routers/noteRouter.mjs";
 
 const app = express();
 const PORT = process.env.PORT || 8000;
